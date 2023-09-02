@@ -34,6 +34,13 @@ span{
     justify-content: center;
     background-image: url("/assets/bg/asoft.jpg");
 }
+.btn{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background: linear-gradient(51deg, rgba(233,215,221,1) 0%, rgba(221,205,205,1) 25%, rgba(206,214,214,1) 46%, rgba(12,190,251,1) 78%, rgba(14,101,232,1) 100%);
+    margin: 1rem;
+}
 
 
 #asoft{
