@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    background: rgb(21, 21, 21);
+}
+h1 {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+a{
+    color: aliceblue;
+}
+
+span{
+    margin-left: 0.5rem;
+}
+
+.songs{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/assets/bg/asoft.jpg");
+}
+
+
+#asoft{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    background: linear-gradient(51deg, rgba(57,132,244,1) 0%, rgba(93,12,255,1) 13%, rgba(0,192,255,1) 43%, rgba(12,190,251,1) 78%, rgba(14,101,232,1) 100%);
+    font-weight: bold;
+
+}
+
+#tel-main-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(51deg, rgba(120,114,116,1) 0%, rgba(50,43,43,1) 25%, rgba(99,92,95,1) 46%, rgba(12,190,251,1) 78%, rgba(14,101,232,1) 100%);
+}
+
+#tel-but-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.btn{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background: linear-gradient(51deg, rgba(233,215,221,1) 0%, rgba(221,205,205,1) 25%, rgba(206,214,214,1) 46%, rgba(12,190,251,1) 78%, rgba(14,101,232,1) 100%);
+    margin: 1rem;
+}
+
+#telimg{
+    width: 15rem;
+}
+
+#refresh{
+    width: 10rem;
+}
+
+#up-warning{
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telefona Bakma!!!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>TASK1</h1>
+        <div>
+          <img src="/assets/push-chevron-left-r.png" alt="left" />
+          <img src="/assets/push-chevron-right-o.png" alt="mid" />
+          <img src="/assets/push-chevron-right-r.png" alt="right" />
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="songs">
+        <iframe
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/track/2IcIOwbLj9eJANKtywPOFs?utm_source=generator"
+          width="40%"
+          height="200"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+        <button id="asoft">
+          <a href="https://asoftmurmur.com/">ASOFTMURMUR</a>
+        </button>
+        <iframe
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/track/2ZJwBO0fLrMHT6RRdSAnSz?utm_source=generator"
+          width="40%"
+          height="200"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div id="tel-main-div">
+        <div id="up-warning">Telefona <span  id="changeContent"> hiç bakmadın!</span></div>
+        <div id="tel-but-div">
+          <img id="telimg" onclick="telephoneClick()" src="/assets/tel/tel.svg" alt="tel">
+        </div>
+        <div>
+          <img id="refresh" onclick="refresh()" src="/assets/tel/refresh.svg" alt="ref">
+        </div>
+      </div>
+    </section>
+    <script src="/main.js"></script>
+  </body>
+</html>
